@@ -1,0 +1,132 @@
+{
+	"info": {
+		"_postman_id": "4dfc8fde-04ea-4866-ab20-ae8244df6ef4",
+		"name": "TimeQuiz Production",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://34.100.156.119:8585/",
+					"protocol": "http",
+					"host": [
+						"34",
+						"100",
+						"156",
+						"119"
+					],
+					"port": "8585",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Quizzes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://34.100.156.119:8585/quizzes/all",
+					"protocol": "http",
+					"host": [
+						"34",
+						"100",
+						"156",
+						"119"
+					],
+					"port": "8585",
+					"path": [
+						"quizzes",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Active Quizzes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://34.100.156.119:8585/quizzes/active",
+					"protocol": "http",
+					"host": [
+						"34",
+						"100",
+						"156",
+						"119"
+					],
+					"port": "8585",
+					"path": [
+						"quizzes",
+						"active"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Result",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://34.100.156.119:8585/quizzes/4/result",
+					"protocol": "http",
+					"host": [
+						"34",
+						"100",
+						"156",
+						"119"
+					],
+					"port": "8585",
+					"path": [
+						"quizzes",
+						"4",
+						"result"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Quiz",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"question\":\"Quiz question 5\",\n    \"options\":[\"Option A\", \"Option B\",\"Option C\"],\n    \"rightAnswer\":2,\n    \"startDate\":\"2023-05-27 12:05\",\n    \"endDate\":\"2023-05-27 23:59\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://34.100.156.119:8585/quizzes",
+					"protocol": "http",
+					"host": [
+						"34",
+						"100",
+						"156",
+						"119"
+					],
+					"port": "8585",
+					"path": [
+						"quizzes"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
