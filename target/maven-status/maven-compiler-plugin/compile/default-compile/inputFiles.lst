@@ -1,0 +1,8 @@
+/root/Documents/workspace-spring-tool-suite-4-4.14.0.RELEASE/TimeQuiz/src/main/java/com/tquiz/repos/QuizRepo.java
+/root/Documents/workspace-spring-tool-suite-4-4.14.0.RELEASE/TimeQuiz/src/main/java/com/tquiz/TimeQuizApplication.java
+/root/Documents/workspace-spring-tool-suite-4-4.14.0.RELEASE/TimeQuiz/src/main/java/com/tquiz/entities/Quiz.java
+/root/Documents/workspace-spring-tool-suite-4-4.14.0.RELEASE/TimeQuiz/src/main/java/com/tquiz/exceptions/GlobalExceptionHandler.java
+/root/Documents/workspace-spring-tool-suite-4-4.14.0.RELEASE/TimeQuiz/src/main/java/com/tquiz/services/QuizService.java
+/root/Documents/workspace-spring-tool-suite-4-4.14.0.RELEASE/TimeQuiz/src/main/java/com/tquiz/services/imples/QuizServiceImple.java
+/root/Documents/workspace-spring-tool-suite-4-4.14.0.RELEASE/TimeQuiz/src/main/java/com/tquiz/controllers/QuizController.java
+/root/Documents/workspace-spring-tool-suite-4-4.14.0.RELEASE/TimeQuiz/src/main/java/com/tquiz/dtos/QuizDto.java

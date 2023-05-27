@@ -1,0 +1,14 @@
+server:
+  port: 80
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/timequiz
+    username: manish
+    password: Manish_1998
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  application:
+    name: HOTEL-SERVICE
